@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow: hidden;
+  background-color: #EAF2E3;
+}
+
+.background {
+  background-image: url('/images/waldoBackground.jpg');
+}
+
+.bg-color {
+  background-color: #EAF2E3;
+}
+
+.header-clr {
+  font-weight: 600;
+  color: #4cd6cf;
+}
+
+.game-button {
+  background-color: #4cd6cf;
+  color: #EAF2E3;
+}
+
+.back-pos {
+  position: absolute;
+  top:7.5vh;
+  left: 15vw;
+}
+
+.level-cube {
+  border-radius: 1vh;
+  transition: transform .3s ease-in-out;
+  display: grid;
+  place-items: center;
+  font-size: 5.5vw;
+  color: #EAF2E3;
+  user-select: none;
+}
+
+.level-cube:hover {
+  transform: scale(1.03)
+}
+
+.level {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 99vw;
+}
+
+.one {
+  height: 280vh;
+  background-size: cover;
+  background-image: url('/images/waldoLevel.jpg');
+}
+
+.two {
+  height: 148vh;
+  background-image: url('/images/waldoLevel2.jpg');
+}
+
+.three {
+  background-size: cover;
+  height: 130vh;
+  background-image: url('/images/waldoLevel3.jpg')
+}
+  
+.waldo-icon {
+  background-image: url('/images/waldoIcon.png');
+  background-size: contain;
+  background-repeat:no-repeat;
+  height: 12vh;
+  width:15vw;
+}
+
