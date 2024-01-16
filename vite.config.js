@@ -1,6 +1,6 @@
-import path from "path";
-import react from "@vitejs/plugin-react-swc";
-import { defineConfig } from "vite";
+import path from 'path';
+import react from '@vitejs/plugin-react-swc';
+import { defineConfig } from 'vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -9,7 +9,7 @@ export default defineConfig({
   resolve: {
     alias: {
       // eslint-disable-next-line no-undef
-      "@": path.resolve(__dirname, "./src"),
+      '@': path.resolve(__dirname, './src'),
     },
-  }
-})
+  },
+});
