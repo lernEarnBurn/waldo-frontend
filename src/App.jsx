@@ -16,7 +16,7 @@ function App() {
   return (
     <AnimatePresence mode="wait" initial={false}>
       <Routes location={location} key={location.pathname}>
-        <Route path='/waldo-frontend/' element={<StartMenu/>}/>
+        <Route path='/' element={<StartMenu/>}/>
         <Route path='/main-menu' element={<MainMenu/>}/>
         <Route path='/level-one' element={<LevelOne/>}/>
         <Route path='/level-two' element={<LevelTwo/>}/>
