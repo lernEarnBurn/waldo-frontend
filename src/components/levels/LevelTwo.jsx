@@ -45,7 +45,7 @@ export function LevelTwo() {
     if (playerName != '') {
       setOpenModal(false);
       storePlayerLocally(playerName, seconds);
-      navigate('/level-two/leaderboard');
+      navigate('/waldo-frontend/level-two/leaderboard');
     }
   }
 

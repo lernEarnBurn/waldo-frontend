@@ -45,7 +45,7 @@ export function LevelOne() {
     if (playerName != '') {
       setOpenModal(false);
       storePlayerLocally(playerName, seconds);
-      navigate('/level-one/leaderboard');
+      navigate('/waldo-frontend/level-one/leaderboard');
     }
   }
 

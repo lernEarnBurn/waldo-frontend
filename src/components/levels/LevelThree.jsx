@@ -45,7 +45,7 @@ export function LevelThree() {
     if (playerName != '') {
       setOpenModal(false);
       storePlayerLocally(playerName, seconds);
-      navigate('/level-three/leaderboard');
+      navigate('/waldo-frontend/level-three/leaderboard');
     }
   }
 

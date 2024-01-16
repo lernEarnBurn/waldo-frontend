@@ -59,7 +59,7 @@ export function Leaderboard() {
         whileTap="rest"
         initial="rest"
         onClick={() => {
-          navigate('/main-menu');
+          navigate('/waldo-frontend/main-menu');
         }}
       >
         <ArrowBigLeft height={45} width={60} />

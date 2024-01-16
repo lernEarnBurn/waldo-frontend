@@ -18,7 +18,7 @@ export function MainMenu() {
           <div
             className="bg-red-400 w-36 h-36 level-cube"
             onClick={() => {
-              navigate('/level-one');
+              navigate('/waldo-frontend/level-one');
             }}
           >
             1
@@ -26,7 +26,7 @@ export function MainMenu() {
           <div
             className="bg-red-400 w-36 h-36 level-cube"
             onClick={() => {
-              navigate('/level-two');
+              navigate('/waldo-frontend/level-two');
             }}
           >
             2
@@ -34,7 +34,7 @@ export function MainMenu() {
           <div
             className="bg-red-400 w-36 h-36 level-cube"
             onClick={() => {
-              navigate('/level-three');
+              navigate('/waldo-frontend/level-three');
             }}
           >
             3

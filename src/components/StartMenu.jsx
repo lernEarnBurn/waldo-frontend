@@ -19,7 +19,7 @@ export function StartMenu() {
       <div className="background h-[100vh] grid place-items-center">
         <motion.button
           onClick={() => {
-            navigate('/main-menu');
+            navigate('/waldo-frontend/main-menu');
           }}
           className="game-button w-[18vw] text-5xl rounded-lg py-5 px-2"
           variants={buttonVariants}
