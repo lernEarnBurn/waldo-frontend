@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://lernEarnBurn.github.io/waldo-frontend",
+  "homepage": "https://lernearnburn.github.io/waldo-frontend",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
